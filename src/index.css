@@ -97,3 +97,9 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .auth-gradient {
+    background: linear-gradient(135deg, hsl(28 98% 54%), hsl(28 98% 44%));
+  }
+}
